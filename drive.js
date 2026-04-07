@@ -3,7 +3,7 @@ window.addEventListener("load", setupListener);
 function setupListener() {
   let expanderClicked = new Set(); // track per ID
 
-  const IDS = ["nt:Drive", "nt:Driv"];
+  const IDS = ["nt:Drive", "nt:Driv", "nt:Dri"];
 
   // const log = (...args) => console.log("[ext]", ...args);
   const log = (...args) => {};
